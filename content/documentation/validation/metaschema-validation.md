@@ -4,7 +4,7 @@ weight: 220
 ---
 # Metaschema Validation
 
-Maintainers of [the core OSCAL models](https://github.com/usnistgov/OSCAL/tree/main/src/metaschema) and the [FedRAMP OSCAL Constraints](https://github.com/GSA/fedramp-automation/tree/develop/src/validations/constraints) use Metaschema. The Metaschema Information Modeling Framework [has several capabilities](https://framework.metaschema.dev/specification/overview/), including validating the OSCAL data models in JSON, XML, or YAML formats with a unified framework to ease maintenance for maintainers and community adopters.
+Maintainers of [the core OSCAL models](https://github.com/usnistgov/OSCAL/tree/main/src/metaschema) and the [FedRAMP OSCAL Constraints](https://github.com/GSA/fedramp-automation/tree/develop/src/validations/constraints) use [the Metaschema Information Modeling Framework](https://framework.metaschema.dev/). Metaschema [has several capabilities](https://framework.metaschema.dev/specification/overview/), including validating the OSCAL data models in JSON, XML, or YAML formats with a unified framework to ease maintenance for maintainers and community adopters.
 
 The use of Metaschmea for OSCAL modeling allows for developers to use [Metaschema constraints](https://framework.metaschema.dev/specification/syntax/constraints/). Metaschema constraints are a robust mechanism to declaratively describe requirements for OSCAL data elements, be it in JSON, XML, or YAML, independently or in relation to one another. Developers may also use variables in constraints to cache important data for one or more constraints to facilitate [DRY constraint code and not repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
